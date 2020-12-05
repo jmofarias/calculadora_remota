@@ -23,7 +23,7 @@ public class Cliente {
 						+ "Subtracao (2) \n"
 						+ "Multiplicacao (3) \n"
 						+ "Divisao (4) \n"
-						+ "Sair (Cancelar)");
+						+ "Sair (Cancel)");
 				switch(menu) {
 					case "1":{
 						int x = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro numero"));
